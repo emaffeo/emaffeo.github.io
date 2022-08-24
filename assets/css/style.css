@@ -1,0 +1,76 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+/* IMPORT */
+
+/* ESTANDARIZACION */
+:root {
+    --background: #F3F5FC;
+    --color-body: rgb(27, 27, 220);
+    --border-radius: 32px;
+    --font-main: 'Plus Jakarta Sans', sans-serif;
+    --font-footer: 'Comfortaa', cursive;
+}
+body {
+    font-size: 15px;
+    height: 100vh;
+    font-family: var(--font-main);
+    margin: 0;
+    background-image: url("../img/back_4.jpg");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: var(--font-main);
+}
+footer{
+    font-family: var(--font-footer);
+    font-size: 9px;
+}
+p{
+    color: white;
+    text-decoration: none;
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/* ESTANDARIZACION */
+#floatingTextarea {
+    height: 50vh;
+}
+.btn{
+    background-color: rgb(63, 195, 175);
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(51, 77, 73);
+    color: white;
+}
+.foot{
+    font-size: 1.3em;
+    color: white!important;
+    text-decoration-line: none!important;
+}
+.git{
+    filter: invert(100%);
+    margin-bottom: 7px;
+}
+/* MEDIA QUERYS*/
+@media (max-width: 767.98px) {
+    body {
+        height: 100%;
+    }
+    #floatingTextarea{
+        height: 30vh !important;
+    }
+}
+/* MEDIA QUERYS*/
