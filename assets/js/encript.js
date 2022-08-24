@@ -52,7 +52,7 @@ function copy(){
         inputTexto.value = ""
         swal({  
                 title: "Texto copiado",
-                text: "Pegue con ctrl+c!",
+                text: "Pegue con ctrl+v!",
                 icon: "success",
                 button: "Bien!!",
         });
